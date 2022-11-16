@@ -113,6 +113,130 @@ describe("register", () =>{
         fireevent.change(passwordInputNode, { target: { value: "test" }})
 
         expect(errorMessageSignal).not.toBeInTheDocument();
-    })
+    });
 
 });
+
+//Dashboard Form Testing
+describe("dashboard", () =>{
+    test("dashboard should display on correct login",() => {
+        const text = "text@test.com";
+        expect(validateInput(text)).toBe(true);
+    });
+
+    test("upload form should be in the document",() => {
+        const component = render(<App/>);
+        ///console.log(component);
+        const labelNode = component.getByText("Upload:");
+        expect(labelNode).toBeInTheDocument();
+    });
+
+    test("search form should be in the document",() => {
+        const component = render(<App/>);
+        ///console.log(component);
+        const labelNode = component.getByText("Search:");
+        expect(labelNode).toBeInTheDocument();
+    });
+
+    test("user should be able to logout", () => {
+        const mockFn = jest.fn();
+        const {getByRole} = render(<App handleSubmit={mockFn} />);
+        const buttonNode = getByRole("logout");
+        fireevent.submit(buttonNode);
+        expect(mockFn).toHaveBeenCalledTimes();
+    });
+
+    test("user details should appear on the header of the page", () => {
+        const pName = "Research Content Management";
+        const username = component.getByText("username");
+        const email = component.getByText("email");
+        expect(pName,username,email).toBeInTheDocument();
+    });
+});
+
+//Upload Form Testing
+describe("upload", () =>{
+    test("upload should display on correct login",() => {
+        const text = "text@test.com";
+        expect(validateInput(text)).toBe(true);
+    });
+
+    test("upload details should appear on the page", () => {
+        const topic = component.getByText("topic");
+        const yearOfPublishing = component.getByText("year");
+        const title = component.getByText("title");
+        const technique = component.getByText("technique");
+        const uploadPaper = component.getByText("uploadPaper");
+        expect(topic,yearOfPublishing,title,technique,uploadPaper).toBeInTheDocument();
+    });
+
+    // topic for the paper, 
+    // year of publishing for the paper, 
+    // title of the paper, 
+    // and finally technique of the paper by 
+
+    test("upload paper should consist of mandatory year and technique feild",() => {
+        const {getByLabelText, getByText} = render(<App/>);
+        const yearInputNode = getByLabelText("Year");
+        expect( yearInputNode.value).toMatch(notNull);
+        fireevent.change( yearInputNode, {target: {value: 2000}});
+        expect( yearInputNode.value).toMatch(value.length == 2000);
+
+        const errorMessageSignal = getByText("Year should not be empty");
+        expect(errorMessageSignal).toBeInTheDocument();
+
+        fireevent.change(yearInputNode, { target: { value: "test" }})
+
+        expect(errorMessageSignal).not.toBeInTheDocument();
+
+        const {getByLabelText1, getByText1} = render(<App/>);
+        const techniqueInputNode = getByLabelText1("Technique");
+        expect( techniqueInputNode.value).toMatch(notNull);
+        fireevent.change( techniqueInputNode, {target: {value: "testing"}});
+        expect( techniqueInputNode.value).toMatch(value.length == "testing");
+
+        const errorMessageSignal1 = getByText1("Technique should not be empty");
+        expect(errorMessageSignal1).toBeInTheDocument();
+
+        fireevent.change(techniqueInputNode, { target: { value: 1000 }})
+
+        expect(errorMessageSignal).not.toBeInTheDocument();
+
+    });
+
+    test("should be able to submit form", () => {
+        const mockFn = jest.fn();
+        const {getByRole} = render(<App handleSubmit={mockFn} />);
+        const buttonNode = getByRole("upload");
+        fireevent.submit(buttonNode);
+        expect(mockFn).toHaveBeenCalledTimes();
+    });
+
+});
+
+  //Search Form Testing
+  describe("search", () =>{
+    test("upload should display on correct login",() => {
+        const text = "text@test.com";
+        expect(validateInput(text)).toBe(true);
+    });
+
+    test("search details should appear on the page", () => {
+        const topic = component.getByText("topic");
+        const yearOfPublishing = component.getByText("year");
+        const title = component.getByText("title");
+        const technique = component.getByText("technique");
+        const viewPdf = component.getByText("viewPdf");
+        expect(topic,yearOfPublishing,title,technique,viewPdf).toBeInTheDocument();
+    });
+
+    test("should be able to get pdf form", () => {
+        const mockFn = jest.fn();
+        const {getByRole} = render(<App handleSubmit={mockFn} />);
+        const buttonNode = getByRole("view pdf");
+        fireevent.submit(buttonNode);
+        expect(mockFn).toHaveBeenCalledTimes();
+    });
+
+});
+
