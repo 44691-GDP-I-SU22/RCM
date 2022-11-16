@@ -240,3 +240,30 @@ describe("upload", () =>{
 
 });
 
+  //Comments Form Testing
+  describe("comment", () =>{
+    test("should be able to get added comments for pdf form", () => {
+        const mockFn = jest.fn();
+        const {getByRole} = render(<App handleSubmit={mockFn} />);
+        const buttonNode = getByRole("view comments");
+        fireevent.submit(buttonNode);
+        expect(mockFn).toHaveBeenCalledTimes();
+    });
+
+    test("should be able to add comments to pdf form", () => {
+        const mockFn = jest.fn();
+        const {getByRole} = render(<App handleSubmit={mockFn} />);
+        const buttonNode = getByRole("add comments");
+        fireevent.submit(buttonNode);
+        expect(mockFn).toHaveBeenCalledTimes();
+    });
+
+    test("date details should appear on the page", () => {
+        const time = component.getByText("time");
+        const date = component.getByText("date");
+        const year = component.getByText("year");
+        expect(time,date,year).toBeInTheDocument();
+    });
+
+  });
+
