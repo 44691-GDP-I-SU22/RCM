@@ -16,7 +16,7 @@
 
 •	Package.json consists of metadata where the file includes all the details of application that includes application name, version, dependencies installed and their version and debugging dependencies.
 
-#### 1.3. Adding components
+### 1.3. Adding components
 	
 •	Components are building blocks for react component. A react application can have many components where developer writes clean and efficient code in a component and embed the component to main file.
 
