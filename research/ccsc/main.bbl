@@ -1,0 +1,274 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{abazi2008development}{article}{}
+    \name{author}{1}{}{%
+      {{hash=ABL}{%
+         family={Abazi-Bexheti},
+         familyi={A\bibinithyphendelim B\bibinitperiod},
+         given={Lejla},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{3}{%
+      {World Scientific}%
+      {Engineering Academy}%
+      {Society (WSEAS) Stevens Point~…}%
+    }
+    \strng{namehash}{ABL1}
+    \strng{fullhash}{ABL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{Development of a learning content management system}
+    \field{journaltitle}{WSEAS Transactions on Information Science and
+  Applications}
+    \field{year}{2008}
+  \endentry
+
+  \entry{beel2011docear}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=BJ}{%
+         family={Beel},
+         familyi={B\bibinitperiod},
+         given={Joeran},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GB}{%
+         family={Gipp},
+         familyi={G\bibinitperiod},
+         given={Bela},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Langer},
+         familyi={L\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Genzmehr},
+         familyi={G\bibinitperiod},
+         given={Marcel},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BJ+1}
+    \strng{fullhash}{BJGBLSGM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{booktitle}{Proceedings of the 11th annual international ACM/IEEE
+  joint conference on Digital libraries}
+    \field{title}{Docear: An academic literature suite for searching,
+  organizing and creating academic literature}
+    \field{year}{2011}
+  \endentry
+
+  \entry{brooks2006awareness}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=BC}{%
+         family={Brooks},
+         familyi={B\bibinitperiod},
+         given={Christopher},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=PR}{%
+         family={Panesar},
+         familyi={P\bibinitperiod},
+         given={Rupi},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Greer},
+         familyi={G\bibinitperiod},
+         given={Jim},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{BCPRGJ1}
+    \strng{fullhash}{BCPRGJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{booktitle}{European Conference on Technology Enhanced Learning}
+    \field{title}{Awareness and collaboration in the ihelp courses content
+  management system}
+    \field{year}{2006}
+  \endentry
+
+  \entry{dobecki2010web}{article}{}
+    \name{author}{2}{}{%
+      {{hash=DM}{%
+         family={Dobecki},
+         familyi={D\bibinitperiod},
+         given={Maciej},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ZW}{%
+         family={Zabierowski},
+         familyi={Z\bibinitperiod},
+         given={Wojciech},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DMZW1}
+    \strng{fullhash}{DMZW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{Web-based content management system}
+    \field{journaltitle}{International Journal of Computing}
+    \field{year}{2010}
+  \endentry
+
+  \entry{eapen2006endnote}{article}{}
+    \name{author}{1}{}{%
+      {{hash=EB}{%
+         family={Eapen},
+         familyi={E\bibinitperiod},
+         given={Bell},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Medknow Publications}%
+      {Media Pvt. Ltd.}%
+    }
+    \strng{namehash}{EB1}
+    \strng{fullhash}{EB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{title}{EndNote 7.0}
+    \field{journaltitle}{Indian Journal of Dermatology, Venereology, and
+  Leprology}
+    \field{year}{2006}
+  \endentry
+
+  \entry{grolimund2012citation}{report}{}
+    \name{author}{1}{}{%
+      {{hash=GR}{%
+         family={Grolimund},
+         familyi={G\bibinitperiod},
+         given={Rapha{\"e}l},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GR1}
+    \strng{fullhash}{GR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{Citation and bibliography made easy with Zotero}
+    \field{type}{techreport}
+    \field{year}{2012}
+  \endentry
+
+  \entry{michelinakis2004open}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MD}{%
+         family={Michelinakis},
+         familyi={M\bibinitperiod},
+         given={Dimitrios},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Citeseer}%
+    }
+    \strng{namehash}{MD1}
+    \strng{fullhash}{MD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Open source content management systems: An argumentative
+  approach}
+    \field{journaltitle}{The University of Warwick: Warwick Manufacturing
+  Group, A report submitted for the award of MSc Electronic Business
+  Management}
+    \field{year}{2004}
+  \endentry
+
+  \entry{mooney2008extensible}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MSD}{%
+         family={Mooney},
+         familyi={M\bibinitperiod},
+         given={Sean\bibnamedelima D},
+         giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=BPH}{%
+         family={Baenziger},
+         familyi={B\bibinitperiod},
+         given={Peter\bibnamedelima H},
+         giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{MSDBPH1}
+    \strng{fullhash}{MSDBPH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Extensible open source content management systems and
+  frameworks: a solution for many needs of a bioinformatics group}
+    \field{journaltitle}{Briefings in bioinformatics}
+    \field{year}{2008}
+  \endentry
+
+  \entry{singh2010mendeley}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SJ}{%
+         family={Singh},
+         familyi={S\bibinitperiod},
+         given={Jatinder},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Medknow Publications}%
+      {Media Pvt. Ltd.}%
+    }
+    \strng{namehash}{SJ1}
+    \strng{fullhash}{SJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Mendeley: A free research management tool for desktop and
+  web}
+    \field{journaltitle}{Journal of Pharmacology and Pharmacotherapeutics}
+    \field{year}{2010}
+  \endentry
+\enddatalist
+\endinput

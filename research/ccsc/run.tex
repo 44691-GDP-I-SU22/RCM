@@ -1,0 +1,28 @@
+\section{Implementation of the Application} In this section, we provide the details about the implementation and execution of the application.
+
+\paragraph{\textbf{Creating a new React project}} First, we have created a React project via the following steps:
+\begin{itemize}
+	\item A new React project can be created by using command
+	``npx create-react-app my-app" where my-app is your app name.
+	\item Developer can use any IDE for developing a react application.
+	\item After the successful execution of the above command, a basic react application will be created.
+\end{itemize}
+
+\paragraph{\textbf{Managing package.json}} We use package.json for storing information about the application. The package.json file consists of metadata where the file includes all the details about the application that includes application name, version, dependencies installed and their version and debugging dependencies.
+
+\paragraph{\textbf{Components}} Components are building blocks for the React component. A React application can have many components where a developer writes clean and efficient code in a component and embed the component to a main file.There are two types of components in React JavaScript, namely, functional and class component.
+
+\paragraph{\textbf{Adding Database to React Application}} To our react application we have chosen the Firebase as primary database where our application has authentication, storage and managing the users. To make the Firebase in sync with react application, a developer needs to create a project in the Firebase and choose the application which he/she needs to develop so that the Firebase provides a snippet code which is ready to use. We use the provided snippet by the Firebase in our react application by creating a new .js extension file. By using above file we can import the Firebase functionalities to our react application.
+
+\paragraph{\textbf{Embedding Components to App.js}} All the components which were created in React application needs to embed in main file i.e., App.js so that whenever react application call index.js, it  renders App.js in strict mode and all the components in App.js will be displayed whenever application is run. 
+
+\paragraph{\textbf{Running React Application}} After adding all the components to App.js the application needs to be run on the server side. React application can be run on the server side using command ``npm start" and the application can be viewed on localhost:3000. In order to run the application some of the dependencies need to be installed and they can be installed by running the below commands in VS code terminal.
+\begin{itemize}
+	\item 	npm install react-scripts –save
+	\item 	npm install -S react-router-dom
+	\item 	npm install --save react-firebase-hooks
+\end{itemize}
+
+
+
+

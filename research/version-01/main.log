@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.7)  11 NOV 2022 09:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.7)  11 DEC 2022 23:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -559,28 +559,23 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[1{C:/Users/rlal/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+! I can't write on file `main.pdf'.
+(Press Enter to retry, or Control-C to exit; default file extension is `.pdf')
+Please type another file name for output
+! Emergency stop.
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.72 \end{document}
+                   
+*** (job aborted, file error in nonstop mode)
 
-
-
-] (main.aux) ) 
+ 
 Here is how much of TeX's memory you used:
- 7009 strings out of 477843
- 109791 string characters out of 2824072
- 445093 words of memory out of 3000000
+ 6998 strings out of 477843
+ 109647 string characters out of 2824072
+ 443102 words of memory out of 3000000
  25855 multiletter control sequences out of 15000+600000
- 498626 words of font info for 76 fonts, out of 8000000 for 9000
+ 490975 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,62p,1002b,259s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/rlal/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base
-/8r.enc}<C:/Users/rlal/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb
-8a.pfb><C:/Users/rlal/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi
-8a.pfb><C:/Users/rlal/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8
-a.pfb><C:/Users/rlal/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8
-a.pfb>
-Output written on main.pdf (1 page, 54111 bytes).
-PDF statistics:
- 27 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 55i,8n,62p,1002b,255s stack positions out of 10000i,1000n,20000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
